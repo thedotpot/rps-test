@@ -1,0 +1,96 @@
+body{
+    background-color: #cccc; 
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.main{
+   height: 100%;
+   
+}
+.selections{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 2rem;
+    gap: 1rem;
+    
+}
+
+.selection{
+    cursor: pointer;
+    transition: 200ms;
+    font-size: 4rem;
+}
+
+.selection:hover{
+    transform: scale(1.2);
+}
+
+.results{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.your-score, .computer-score{
+    font-size: 2rem;
+}
+
+.score1, .score2{
+    font-size: 1rem;
+    color: rgb(92, 89, 89);
+}
+
+.select{
+    font-size: 1rem;
+}
+
+.outcome{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.final-outcome{
+    display: flex;
+    justify-content: center;
+}
+
+.extra{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(102, 221, 239);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    transition: 200ms;
+   
+    
+}
+
+.extra:hover{
+    transform: scale(1.2);
+}
+
+.hidden{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
